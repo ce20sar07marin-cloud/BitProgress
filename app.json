@@ -24,6 +24,7 @@
       "package": "com.bitprogress.app"
     },
     "plugins": [],
-    "jsEngine": "jsc"
+    "jsEngine": "jsc",
+    "expoRouter": true
   }
 }
