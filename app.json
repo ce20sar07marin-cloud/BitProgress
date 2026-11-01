@@ -13,13 +13,17 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.bitprogress.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundColor": "#ffffff",
         "backgroundColor": "#000000"
-      }
-    }
+      },
+      "package": "com.bitprogress.app"
+    },
+    "plugins": [],
+    "jsEngine": "jsc"
   }
 }
