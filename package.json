@@ -9,9 +9,9 @@
     "web": "expo web"
   },
   "dependencies": {
+    "expo": "~58.0.0",
     "react": "18.2.0",
-    "react-native": "0.73.4",
-    "expo": "~50.0.0"
+    "react-native": "0.73.4"
   },
   "author": "Vicente Martinez"
 }
