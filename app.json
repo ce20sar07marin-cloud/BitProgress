@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "BitProgress",
+    "slug": "BitProgress",
+    "owner": "cesardev19",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/bit2.0.png",
+    "scheme": "bitprogress",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/bit2.0.png"
+    },
+    "android": {
+      "package": "com.bitprogress.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/images/bit2.0.png",
+        "backgroundImage": "./assets/images/bit2.0.png",
+        "monochromeImage": "./assets/images/bit2.0.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/bit2.0.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/images/bit2.0.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-font",
+      "expo-sqlite",
+      "expo-asset",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3f49c02a-56c4-44ac-a896-f3a46600bb27"
+      }
+    }
+  }
+}
