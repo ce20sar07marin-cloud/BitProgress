@@ -1,7 +1,7 @@
 {
   "name": "bitprogress",
   "version": "1.0.0",
-  "main": "expo-router/entry",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo android",
@@ -9,9 +9,13 @@
     "web": "expo web"
   },
   "dependencies": {
-    "expo": "~58.0.0",
-    "react": "18.2.0",
-    "react-native": "0.73.4"
+    "expo": "~57.0.31",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
   },
-  "author": "Vicente Martinez"
+  "author": "Vicente Martinez",
+  "devDependencies": {
+    "@types/react": "~19.2.4",
+    "typescript": "~6.0.3"
+  }
 }
